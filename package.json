@@ -1,0 +1,20 @@
+{
+  "name": "cas1pWA",
+  "version": "1.0.0",
+  "description": "",
+  "main": "app.js",
+  "dependencies": {
+    "fs": "^0.0.1-security",
+    "debug": "^2.6.9",
+    "body-parser": "^1.17.2",
+    "jade": "^1.11.0",
+    "express": "^4.15.5",
+    "serve-favicon": "^2.4.5"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "start": "node ./sampleserver.js"
+  },
+  "author": "Y. STROPPA",
+  "license": "ISC"
+}

@@ -1,0 +1,39 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+<title>Premiere application nodejs</title>
+<meta charset="utf-8">
+<meta name="viewport" content="width=713px, minimum-scale=1.0, initial-scale=1.0, user-scalable=yes">
+<link rel="stylesheet" type="text/css" href="styles/style.css" />
+<script src="./scripts/jquery-3.4.1.min.js"></script>
+
+</head>
+<body>	
+<center>
+<h1>Jeu Binero 2020 V2 </h1>
+</center>
+<div id="conteneur" class="center">
+    <div id="contenu">
+    <div id="commande_top" class="commandes">
+        <input type="button" id="bt3" value="RàZ" onClick="choixRaz();"/>
+        <input type="button" id="bt2" value="Sauver" onClick="choixSave();"/>
+        <input type="button" id="bt1" value="Auto" onClick="depart(this)"/>
+        <select name="config" id="config-select" onchange="chargement_();">
+        </select>
+    </div>
+    <div id="canv">
+        <canvas id="canvas" width="510px" height="520px"></canvas>
+    </div>
+</div>
+<div id='descriptif' class="center_texte">
+    <p>
+        condition
+    </p>
+ </div>
+<div id="piedpage">
+</div>
+    <script src="scripts/main.js"></script>
+    <script src='scripts/config.js'></script>
+    <script src='scripts/comportement.js'></script>
+</body>
+</html>
